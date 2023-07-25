@@ -74,7 +74,8 @@
             <div class="deal">
                 <div class="deal-info">
                     <h2 class="deal-title">Hot Deal! Sale up to 25% <span>OFF</span></h2>
-                    <p class="deal-details">It is a long established fact that a reader will be distracted by there ad able<br>content of a page when looking at its layout.
+                    <p class="deal-details">It is a long established fact that a reader will be distracted by there ad
+                        able<br>content of a page when looking at its layout.
                     </p>
                     <button class="btn">Sign Up</button>
                 </div>
@@ -84,23 +85,37 @@
             </div>
         </section>
         <section class="home-delivery-address">
-           <h3 class="delivery-address-section-title"> Where You Can Pick Your Flowers</h3>
-           <div class="input-adress">
-            <h5 class="input-address-title">Please enter your address to receive <span>HOME DELIVERY</span>:</h5>
-            <label for="district">District: 
-                <Input class="input-field" type="text" placeholder="District"></Input>
-            </label>
-            <label for="Upazilla">Upazilla: 
-                <input class="input-field" type="text" placeholder="Upazilla">
-            </label>
-            <label for="street-address">street-address
-                <input class="input-field" type="text" placeholder="street-address">
-            </label>
-           </div>
+            <h3 class="delivery-address-section-title"> Where You Can Pick Your Flowers</h3>
+            <div class="input-adress">
+                <h5 class="input-address-title">Please enter your address to receive <span>HOME DELIVERY</span>:</h5>
+                <form>
+                    <label for="recipientName">Recipient's Name:</label>
+                    <input class="input-field" type="text" id="recipientName" name="recipientName" required><br>
+
+                    <label for="streetAddress">Street Address:</label>
+                    <input class="input-field" type="text" id="streetAddress" name="streetAddress" required><br>
+
+                    <label for="city">City:</label>
+                    <input class="input-field" type="text" id="city" name="city" required><br>
+
+                    <label for="state">State/Province:</label>
+                    <input class="input-field" type="text" id="state" name="state" required><br>
+
+                    <label for="postalCode">Postal Code:</label>
+                    <input class="input-field" type="text" id="postalCode" name="postalCode" required><br>
+
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input class="input-field" type="number" id="postalCode" name="postalCode" required><br>
+
+                    <input class="btn" type="submit" value="Submit">
+                    <input class="btn" type="reset" value="Reset">
+                </form>
+            </div>
         </section>
         <section class="instagram">
             <h2 class="instagram-title">Instagram</h2>
-            <p class="instagram-details">It is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.</p>
+            <p class="instagram-details">It is a long established fact that a reader will be distracted by the
+                readable<br>content of a page when looking at its layout.</p>
             <div class="albums">
                 <img src="asset/Flower 01.png" alt="">
                 <img src="asset/Rectangle 4.png" alt="">
@@ -122,8 +137,9 @@
     <footer>
         <div class="footer-content">
             <h2 class="title"><span>Flower</span>Shop</h2>
-        <p class="details">It is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.</p>
-        <p class="copyright">&copy;CopyRight-2023 | All rights reserved by Tazkeratul Alam</p>
+            <p class="details">It is a long established fact that a reader will be distracted by the readable<br>content
+                of a page when looking at its layout.</p>
+            <p class="copyright">&copy;CopyRight-2023 | All rights reserved by Tazkeratul Alam</p>
         </div>
     </footer>
 </body>

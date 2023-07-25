@@ -27,13 +27,11 @@ body {
 }
 
 .btn {
+    margin-top: 25px;
     border: 0;
     color: #FFF;
-    font-family: Lato;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding: 20px 40px;
     border-radius: 8px;
     background: #E55473;
@@ -134,7 +132,7 @@ body {
 .services h5 {
     color: rgba(39, 39, 39, 0.80);
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* Hot deal section */
@@ -176,16 +174,17 @@ body {
 /* Home delivery address */
 .home-delivery-address {
     width: 76%;
-    margin: auto;
+    margin: 190px auto;
     text-align: center;
     padding: 60px 30px;
     margin-top: 180px;
     background-color: rgb(247, 241, 241);
-    text-align: center;
 }
 
 .home-delivery-address label {
     display: block;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .delivery-address-section-title {
@@ -204,14 +203,20 @@ body {
 }
 
 .input-field {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
     border-radius: 5px;
-    width: 20%;
+    width: 25%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 0;
 }
 
 /* instagram section */
 .instagram {
     width: 80%;
-    margin: 5rem auto;
+    margin: 80px auto;
     text-align: center;
 }
 
@@ -234,6 +239,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 24px;
 }
 
 /* Latest deals */
